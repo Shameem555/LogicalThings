@@ -101,18 +101,28 @@
 //   }
 // }
 
-int findLargestNumber(List<int> numbers) {
-  int largestNumber = numbers[0];
-  for (int number in numbers) {
-    if (number > largestNumber) {
-      largestNumber = number;
-    }
-  }
-  return largestNumber;
-}
+//find large no.
+// int findLargestNumber(List<int> numbers) {
+//   int largestNumber = numbers[0];
+//   for (int number in numbers) {
+//     if (number > largestNumber) {
+//       largestNumber = number;
+//     }
+//   }
+//   return largestNumber;
+// }
+// void main() {
+//   List<int> numbers = [3, 5, 1, 7, 2];
+//   int largestNumber = findLargestNumber(numbers);
+//   print('Largest number: $largestNumber');
+// }
 
-void main() {
-  List<int> numbers = [3, 5, 1, 7, 2];
-  int largestNumber = findLargestNumber(numbers);
-  print('Largest number: $largestNumber');
-}
+//convertCelsiusToFahrenheit
+// double convertCelsiusToFahrenheit(double celsiusTemperature) {
+//   return (celsiusTemperature * 9/5) + 32;
+// }
+// void main() {
+//   double celsiusTemperature = 20;
+//   double fahrenheitTemperature = convertCelsiusToFahrenheit(celsiusTemperature);
+//   print('Temperature in Fahrenheit: $fahrenheitTemperature');
+// }
