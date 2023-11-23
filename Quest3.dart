@@ -1,3 +1,5 @@
+//Write Dart code to remove duplicate elements from a list .
+// stringsList = ["apple", "banana", "apple", "cherry", "Orange", "banana"]
 
 void main() {
   List<String>fruits=["apple","banana","apple","cherry","orange","banana"];
