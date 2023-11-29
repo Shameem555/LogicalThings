@@ -3,7 +3,7 @@
 
 import 'dart:io';
 
-void main(List<String> args) {
+void main() {
   print("Please enter a sentance");
   String? sentance = stdin.readLineSync();
 
