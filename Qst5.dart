@@ -1,3 +1,4 @@
+//check there is vowel or consonant
 void main(List<String> args) {
   String character = "i";
 
