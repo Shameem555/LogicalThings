@@ -165,3 +165,26 @@
 //   }
 // }
 
+// void main(List<String> args) {
+//   List<int>num = [3,4,5,6,7,8,9];
+//   print(num);
+// }
+
+// void main() {
+//   for (var i = 0; i <= 10; i++) {
+//     print(i);
+//   }
+// }
+
+// import 'dart:io';
+// void main() {
+//   var alphabet = 65;
+//   for (var i = 0; i <= 4 ; i++) {
+//     for (var j = 0; j <=i; j++) {
+//       stdout.write("${String.fromCharCode(alphabet)}");
+//     }
+//     alphabet++; 
+//     stdout.writeln();
+//   }
+// }
+
