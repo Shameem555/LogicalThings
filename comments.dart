@@ -188,3 +188,10 @@
 //   }
 // }
 
+// import 'dart:io';
+// void main(List<String> args) {
+//   print("Enter your name");
+//   String? charater = stdin.readLineSync();
+//   print("the entered name is: $charater");
+// }
+
