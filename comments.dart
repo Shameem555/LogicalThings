@@ -126,3 +126,42 @@
 //   double fahrenheitTemperature = convertCelsiusToFahrenheit(celsiusTemperature);
 //   print('Temperature in Fahrenheit: $fahrenheitTemperature');
 // }
+
+//alphabet
+// import 'dart:io';
+// void main() {
+//   var alphabet = 65;
+//   for (var i = 0; i <= 4; i++) {
+//     for (var j = 0; j <= i; j++) {
+//       stdout.write("${String.fromCharCode(alphabet)}");
+//     }
+//     alphabet++;
+//     stdout.writeln();
+//   }
+// }
+
+//alphabet
+// import 'dart:io';
+// void main() {
+//   var alphabet = 65;
+//   for (var i = 0; i <= 4; i++) {
+//     for (var j = 0; j <= i ; j++) {
+//       stdout.write("${String.fromCharCode(alphabet)}");
+//     }
+//     alphabet++;
+//     stdout.writeln();
+//   }
+// }
+
+//sample & simple list 
+// void main() {
+//   List<int> num = [2,3,3,4,5,6];
+//   print(num);
+// }
+
+// void main() {
+//   for (var i = 1; i <= 100; i++) {
+//     print(i);
+//   }
+// }
+
