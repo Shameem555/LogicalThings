@@ -202,9 +202,24 @@
 //   print(unique);
 // }
 
-void main() {
-  List<int> num = [2,3,4,4,3,2,1,5,6,7,7,8,9];
-  Set<int> random = Set<int>.from(num);
-  List<int>number = random.toList();
-  print(number);
-}
+// void main() {
+//   List<int> num = [2,3,4,4,3,2,1,5,6,7,7,8,9];
+//   Set<int> random = Set<int>.from(num);
+//   List<int>number = random.toList();
+//   print(number);
+// }
+
+// void main() {
+//   List<int> num = [1,2,3,4,5,6,3,2,3,5,2,7];
+//   Set<int> unique = Set<int>.from(num);
+//   List<int> filter= unique.toList();
+//   print(filter);
+// }
+
+// void main() {
+//   List<int> list= [2,3,1,3,2,4,5,6,6,5,7,8];
+//   Set<int> unique = Set<int>.from(list);
+//   List<int> filter = unique.toList();
+//   print(filter); 
+// }
+
