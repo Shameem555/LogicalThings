@@ -195,3 +195,16 @@
 //   print("the entered name is: $charater");
 // }
 
+// void main(List<String> args) {
+//   List<int> list=[2,2,4,4,5,6,7,8];
+//   Set<int> random = Set<int>.from(list);
+//   List<int> unique = random.toList(); 
+//   print(unique);
+// }
+
+void main() {
+  List<int> num = [2,3,4,4,3,2,1,5,6,7,7,8,9];
+  Set<int> random = Set<int>.from(num);
+  List<int>number = random.toList();
+  print(number);
+}
