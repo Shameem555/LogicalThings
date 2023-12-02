@@ -4,7 +4,7 @@
 // List<int> list3 = [7, 7, 9,9,1,6];
 // eg : ans = [list1 + list2 +list 3]
 
-void main(List<String> args) {
+void main() {
   List<int> list1 =[1,2,3,6,2];
   List<int> list2 =[4,5,6,7,9,1];
   List<int> list3 =[7,7,9,9,1,6];
