@@ -2,7 +2,7 @@
 // not empty
 // List<int> numbers = [];
 
-void main(List<String> args) {
+void main() {
   List<int> number =[3,4,5];
 
   if (number.isEmpty) {
