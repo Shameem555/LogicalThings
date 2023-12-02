@@ -223,3 +223,9 @@
 //   print(filter); 
 // }
 
+void main() {
+  List<int> number =[1,2,2,3,3,4,5,6,6,7,8,9];
+  Set<int> random = Set<int>.from(number);
+  List<int> numbers = random.toList();
+  print(numbers);
+}
