@@ -1,5 +1,5 @@
 //check there is vowel or consonant
-void main(List<String> args) {
+void main() {
   String character = "i";
 
   if (character == "a"||character == "e" ||character == "i" ||character == "O"||character =="U") {

@@ -5,7 +5,7 @@
 
 import 'dart:math';
 
-void main(List<String> args) {
+void main() {
   final random = Random();
   List<int> randlist = List.generate(10, (_) => random.nextInt(100));
   print(randlist);
