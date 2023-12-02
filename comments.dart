@@ -230,4 +230,22 @@
 //   print(numbers);
 // }
 
+//alphabet pattern 
+// import 'dart:io';
+// void main(List<String> args) {
+//   var alphabet = 65;
+//   for (var i = 0; i <=4; i++) {
+//     for (var j = 0; j <=i; j++) {
+//       stdout.write("${String.fromCharCode(alphabet)}");
+//     }
+//     alphabet++;
+//     stdout.writeln();
+//   }
+// }
 
+// void main(List<String> args) {
+//   List<String> fruits=["mango","banana","apple","mango","orange","pinapple","grapes"];
+//   Set<String> num= Set<String>.from(fruits);
+//   List<String> filter = num.toList();
+//   print(filter);
+// }
