@@ -13,5 +13,4 @@ void main() {
 }
 List<int> newlist(List<int>initialList){
   return [initialList.first,initialList.last];
-
 }
