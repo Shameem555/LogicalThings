@@ -293,10 +293,18 @@
 // }
 
 //remove the duplicate fruits from the backet
-void main(List<String> args) {
-  List<String> fruit=["apple","orange","grapes","pinnaple","apple","orange"];
-  Set<String> filtering = Set<String>.from(fruit);
-  List<String>sort= filtering.toList();
-  print("normal package: $fruit");
-  print("sorted list: $sort");
-}
+// void main(List<String> args) {
+//   List<String> fruit=["apple","orange","grapes","pinnaple","apple","orange"];
+//   Set<String> filtering = Set<String>.from(fruit);
+//   List<String>sort= filtering.toList();
+//   print("normal package: $fruit");
+//   print("sorted list: $sort");
+// }
+
+//name storage
+// import 'dart:io';
+// void main(List<String> args) {
+//   print("enter Your name");
+//   String? name = stdin.readLineSync();
+//   print("You are enter name is:$name");
+// }
