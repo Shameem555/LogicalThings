@@ -284,4 +284,16 @@
 //   }
 // }
 
+//remove the duplicate elements from the list
+// void main(List<String> args) {
+//   List<int>list=[1,2,3,4,3,2,1,5,6,7,4];
+//   Set<int> sort = Set<int>.from(list);
+//   List<int>simple =sort.toList();
+//   print(simple);
+// }
 
+//remove the duplicate fruits from the backet
+void main(List<String> args) {
+  List<String> fruit=["apple","orange","grapes","pinnaple","apple","orange"];
+  
+}
