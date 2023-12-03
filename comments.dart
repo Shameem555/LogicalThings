@@ -315,8 +315,14 @@
 //   print(distinctNumbers);
 // }
 
+// void main(List<String> args) {
+//   List<int> list =[2,2,3,3,4,5,4,6,7,8];
+//   List<int> sort = list.toSet().toList();
+//   print(sort); 
+// }
+
 void main(List<String> args) {
-  List<int> list =[2,2,3,3,4,5,4,6,7,8];
+  List<int> list =[1,2,3,2,4,4,5,6];
   List<int> sort = list.toSet().toList();
-  print(sort); 
+  print(sort);
 }
