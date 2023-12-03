@@ -307,3 +307,16 @@
 //   String? name = stdin.readLineSync();
 //   print("You are enter name is:$name");
 // }
+
+//new way to set the list 
+// void main() {
+//   List<int> list = [1, 26, 26, 3, 9, 4, 5, 9];
+//   List<int> distinctNumbers = list.toSet().toList();
+//   print(distinctNumbers);
+// }
+
+void main(List<String> args) {
+  List<int> list =[2,2,3,3,4,5,4,6,7,8];
+  List<int> sort = list.toSet().toList();
+  print(sort); 
+}
