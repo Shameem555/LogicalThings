@@ -321,8 +321,8 @@
 //   print(sort); 
 // }
 
-void main(List<String> args) {
-  List<int> list =[1,2,3,2,4,4,5,6];
-  List<int> sort = list.toSet().toList();
-  print(sort);
-}
+// void main(List<String> args) {
+//   List<int> list =[1,2,3,2,4,4,5,6];
+//   List<int> sort = list.toSet().toList();
+//   print(sort);
+// }
