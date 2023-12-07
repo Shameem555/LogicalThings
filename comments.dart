@@ -315,4 +315,8 @@
 //   print(distinctNumbers);
 // }
 
-
+void main(List<String> args) {
+  List<int> num = [1,2,3,4,3,4,5,5,6,7];
+  List<int> split = num.toSet().toList();
+  print(split);
+}
