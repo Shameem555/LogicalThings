@@ -344,8 +344,17 @@
 // }
 
 //list with removing the duplicate elements
+// void main(List<String> args) {
+//   List<int> list =[2,3,4,5,6,4,5,3,2,7,8,9];
+//   List<int> filter = list.toSet().toList();
+//   print(filter);
+// }
+
 void main(List<String> args) {
-  List<int> list =[2,3,4,5,6,4,5,3,2,7,8,9];
-  List<int> filter = list.toSet().toList();
-  print(filter);
+  for (var i = 0; i <=100; i++) {
+    if (i !=50) {
+    print(i);  
+    }
+    
+  }
 }
