@@ -339,7 +339,7 @@ import 'dart:io';
 //   }
 // }
 
-//sample list,and list play 
+//sample list
 // void main() {
 //   List<int> sample=[1,2,3,4,5,6,7,8,9,0];
 //   print(sample);
@@ -362,8 +362,14 @@ import 'dart:io';
 // }
 
 //ask the user t0 there name and show what is he entered 
+// void main(List<String> args) {
+//   print("Enter the name");
+//   String? name = stdin.readLineSync();
+//   print("you are entered name is:$name");
+// }
+
 void main(List<String> args) {
-  print("Enter the name");
-  String? name = stdin.readLineSync();
-  print("you are entered name is:$name");
+  List<String> fruits=["apple","orange","grapes","pappaya",'apple',"orange"];
+  List<String> unique = fruits.toSet().toList();
+  print(unique);
 }
