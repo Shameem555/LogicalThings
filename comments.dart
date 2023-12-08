@@ -326,7 +326,7 @@
 
 // # alphabet pattern
 // import 'dart:io';
-// void main(List<String> args) {
+// void main() {
 //   var alphabet = 65;
 //   for (var i = 0; i <=4; i++) {
 //     for (var j = 0; j <=i; j++) {
@@ -337,3 +337,8 @@
 //   }
 // }
 
+//sample list,and list play 
+void main(List<String> args) {
+  List<int> sample=[1,2,3,4,5,6,7,8,9,0];
+  print(sample);
+}
