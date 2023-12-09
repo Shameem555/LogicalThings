@@ -368,8 +368,17 @@ import 'dart:io';
 //   print("you are entered name is:$name");
 // }
 
-void main(List<String> args) {
-  List<String> fruits=["apple","orange","grapes","pappaya",'apple',"orange"];
-  List<String> unique = fruits.toSet().toList();
-  print(unique);
-}
+//remove duplicate
+// void main(List<String> args) {
+//   List<String> fruits=["apple","orange","grapes","pappaya",'apple',"orange"];
+//   List<String> unique = fruits.toSet().toList();
+//   print(unique);
+// }
+
+// void main(List<String> args) {
+//   List<String> list=["anshad",'as','ad',"anshad","as","sd"];
+//   List<String> sample = list.toSet().toList();
+//   print(sample);
+// }
+
+
