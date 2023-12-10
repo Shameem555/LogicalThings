@@ -381,4 +381,7 @@ import 'dart:io';
 //   print(sample);
 // }
 
-
+void main(List<String> args) {
+  List<int>num= [2,4,5,6,7,8];
+  print(num);
+}
