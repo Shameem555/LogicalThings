@@ -381,7 +381,18 @@ import 'dart:io';
 //   print(sample);
 // }
 
+// void main(List<String> args) {
+//   List<int>num= [2,4,5,6,7,8];
+//   print(num);
+// }
+
 void main(List<String> args) {
-  List<int>num= [2,4,5,6,7,8];
-  print(num);
+  var alphabet =65;
+  for (var i = 0; i <= 4; i++) {
+    for (var j = 0; j <= i; j++) {
+      stdout.write("${String.fromCharCode(alphabet)}");
+    }
+    alphabet++;
+    stdout.writeln();
+  }
 }
