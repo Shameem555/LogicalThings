@@ -362,7 +362,7 @@ import 'dart:io';
 // }
 
 //ask the user t0 there name and show what is he entered 
-// void main(List<String> args) {
+// void main() {
 //   print("Enter the name");
 //   String? name = stdin.readLineSync();
 //   print("you are entered name is:$name");
@@ -375,7 +375,7 @@ import 'dart:io';
 //   print(unique);
 // }
 
-// void main(List<String> args) {
+// void main() {
 //   List<String> list=["anshad",'as','ad',"anshad","as","sd"];
 //   List<String> sample = list.toSet().toList();
 //   print(sample);
@@ -386,13 +386,19 @@ import 'dart:io';
 //   print(num);
 // }
 
+// void main() {
+//   var alphabet =65;
+//   for (var i = 0; i <= 4; i++) {
+//     for (var j = 0; j <= i; j++) {
+//       stdout.write("${String.fromCharCode(alphabet)}");
+//     }
+//     alphabet++;
+//     stdout.writeln();
+//   }
+// }
+
 void main(List<String> args) {
-  var alphabet =65;
-  for (var i = 0; i <= 4; i++) {
-    for (var j = 0; j <= i; j++) {
-      stdout.write("${String.fromCharCode(alphabet)}");
-    }
-    alphabet++;
-    stdout.writeln();
+  for (var i = 0; i <=100; i++) {
+    print(i);
   }
 }
