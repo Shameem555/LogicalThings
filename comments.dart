@@ -403,11 +403,17 @@ import 'dart:io';
 //   }
 // }
 
+// void main(List<String> args) {
+//   int number = 4;
+//   if (number%2==0) {
+//     print("this is even number ");
+//   }else{
+//     print("this is odd number ");
+//   }
+// }
+
 void main(List<String> args) {
-  int number = 4;
-  if (number%2==0) {
-    print("this is even number ");
-  }else{
-    print("this is odd number ");
+  for (var i = 0; i <=100; i++) {
+    print(i);
   }
 }
