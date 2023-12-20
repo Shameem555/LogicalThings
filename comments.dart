@@ -418,10 +418,12 @@ import 'dart:io';
 //   }
 // }
 
-void main() {
-  Map<String, dynamic> list = {
-    "name": "shameem",
-    "age": 23,
-  };
-  print(list);
-}
+//map demo
+// void main() {
+//   Map<String, dynamic> list = {
+//     "name": "shameem",
+//     "age": 23,
+//   };
+//   print(list);
+// }
+
