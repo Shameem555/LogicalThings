@@ -412,8 +412,16 @@ import 'dart:io';
 //   }
 // }
 
-void main(List<String> args) {
-  for (var i = 0; i <=100; i++) {
-    print(i);
-  }
+// void main(List<String> args) {
+//   for (var i = 0; i <=100; i++) {
+//     print(i);
+//   }
+// }
+
+void main() {
+  Map<String, dynamic> list = {
+    "name": "shameem",
+    "age": 23,
+  };
+  print(list);
 }

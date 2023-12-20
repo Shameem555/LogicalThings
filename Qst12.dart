@@ -16,6 +16,6 @@ void main() {
       }
     }
   }
-  print(nums.toList());
+  print(nums.toList()); 
   print(Set.from(num).intersection(Set.from(num1)).toList());
 }
