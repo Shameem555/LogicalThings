@@ -320,7 +320,7 @@
 //   List<int> split = num.toSet().toList();
 //   print(split);
 // }
-import 'dart:io';
+// import 'dart:io';
 
 ////////////////////////////////////////////
 
@@ -409,11 +409,5 @@ import 'dart:io';
 //     print("this is even number ");
 //   }else{
 //     print("this is odd number ");
-//   }
-// }
-
-// void main(List<String> args) {
-//   for (var i = 0; i <=100; i++) {
-//     print(i);
 //   }
 // }
