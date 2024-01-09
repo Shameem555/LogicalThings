@@ -352,20 +352,3 @@
 //   print(filter);
 // }
 
-//print 1 to 100 without 50 
-// void main(List<String> args) {
-//   for (var i = 0; i <=100; i++) {
-//     if (i !=50) {
-//     print(i);  
-//     }    
-//   }
-// }
-
-//ask the user t0 there name and show what is he entered 
-// void main() {
-//   print("Enter the name");
-//   String? name = stdin.readLineSync();
-//   print("you are entered name is:$name");
-// }
-
-
